@@ -122,7 +122,7 @@ export function Footer() {
       </div>
 
       <div className="px-4 pt-6 pb-2 select-none pointer-events-none">
-        <span className="block text-center font-heading font-bold text-white/[0.04] leading-none text-[14vw] whitespace-nowrap">
+        <span className="block text-center font-heading font-bold text-white/4 leading-none text-[14vw] whitespace-nowrap">
           KNOST & CO.
         </span>
       </div>

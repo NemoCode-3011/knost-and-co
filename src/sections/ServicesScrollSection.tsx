@@ -1,4 +1,4 @@
-// src/sections/ServicesScrollSection.tsx
+
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { services } from '../data/services';
@@ -31,7 +31,7 @@ export function ServicesScrollSection() {
                 key={service.title}
                 onViewportEnter={() => setActive(i)}
                 viewport={{ amount: 0, margin: '-45% 0px -45% 0px' }}
-                className="min-h-[60vh] lg:min-h-[70vh] flex flex-col justify-center border-t border-border first:border-t-0"
+                className="min-h-[60vh] lg:min-h-[70vh] flex flex-col justify-center border-t border-border first:border-t-0 py-10 lg:py-0"
               >
                 <span className="text-xs uppercase tracking-wider text-body">
                   Service 0{i + 1}
