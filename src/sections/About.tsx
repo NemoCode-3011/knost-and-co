@@ -1,4 +1,4 @@
-// src/sections/About.tsx
+
 import { Link } from 'react-router-dom';
 import aboutImg from '../assets/about.jpg';
 

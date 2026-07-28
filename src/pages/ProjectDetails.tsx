@@ -1,4 +1,4 @@
-// src/pages/ProjectDetail.tsx
+
 import { useParams, Link, Navigate } from "react-router-dom";
 import { motion } from "motion/react";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";

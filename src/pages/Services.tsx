@@ -1,4 +1,4 @@
-// src/pages/Services.tsx
+
 import { motion } from 'motion/react';
 import { fadeUp } from '../lib/motion';
 import { ServicesScrollSection } from '../sections/ServicesScrollSection';

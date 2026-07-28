@@ -1,4 +1,4 @@
-// src/sections/CTABanner.tsx
+
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { fadeUp } from '../lib/motion';

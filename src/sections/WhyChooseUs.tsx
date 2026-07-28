@@ -1,4 +1,4 @@
-// src/sections/WhyChooseUs.tsx
+
 import { motion } from 'motion/react';
 import { ShieldCheck, Clock, Users } from 'lucide-react';
 import { fadeUp, staggerContainer } from '../lib/motion';

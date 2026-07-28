@@ -1,4 +1,4 @@
-// src/sections/ServicesSelector.tsx
+
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ChevronDown, ArrowRight } from "lucide-react";

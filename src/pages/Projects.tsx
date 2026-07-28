@@ -1,4 +1,4 @@
-// src/pages/Projects.tsx
+
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Link } from 'react-router-dom';

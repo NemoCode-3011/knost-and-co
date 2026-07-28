@@ -1,4 +1,4 @@
-// src/sections/FeaturedProjects.tsx
+
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';

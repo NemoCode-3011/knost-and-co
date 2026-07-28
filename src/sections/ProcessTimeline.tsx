@@ -1,4 +1,4 @@
-// src/sections/ProcessTimeline.tsx
+
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { ClipboardList, Ruler, HardHat, ShieldCheck, KeyRound } from 'lucide-react';
