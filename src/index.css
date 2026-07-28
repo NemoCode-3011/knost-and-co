@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #FAFAF8;
+  --color-surface: #FFFFFF;
+  --color-heading: #0D140F;
+  --color-body: #5A5F5C;
+  --color-accent: #8A3E22;
+  --color-border: #E8E6E2;
+
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --text-hero: clamp(2.75rem, 6vw + 1rem, 6rem);
+  --text-hero--line-height: 1.05;
+  --text-hero--letter-spacing: -0.02em;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
