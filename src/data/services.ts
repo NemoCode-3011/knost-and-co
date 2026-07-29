@@ -2,7 +2,7 @@
 import image1 from "../../src/assets/h10.jpg";
 import image2 from "../../src/assets/h8.jpg";
 import image3 from "../../src/assets/civil.jpg";
-import image4 from "../../src/assets/reno.jpg";
+import image4 from "../../src/assets/fitout people.jpg";
 import image5 from "../../src/assets/plan.jpg";
 import image6 from "../../src/assets/structure2.jpg";
 export const services = [

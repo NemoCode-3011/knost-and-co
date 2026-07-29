@@ -26,7 +26,6 @@ export function ServicesPage() {
           </motion.h1>
         </div>
       </section>
-
       <ServicesScrollSection />
       <ProcessTimeline />
       <CTABanner />

@@ -4,10 +4,11 @@ import { NavBar } from './components/NavBar';
 import Home from './pages/Home';
 import { AboutPage } from './pages/About';
 import { ProjectsPage } from './pages/Projects';
-import { ProjectDetailPage } from './pages/projectDetails';
+import { ProjectDetailPage } from './pages/ProjectDetails';
 import { ContactPage } from './pages/Contact';
 import { ServicesPage } from './pages/Services';
 import Scrolltotop from './components/ScrtollToTop';
+import { NotFoundPage } from './pages/NotFound404';
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ function App() {
        <Route path="/projects/:id" element={<ProjectDetailPage />} />
        <Route path="/contact" element={<ContactPage />} />
        <Route path="/services" element={<ServicesPage />} />
+       <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   );

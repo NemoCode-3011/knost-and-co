@@ -34,7 +34,7 @@ const stats = [
 
 export function AboutPage() {
   return (
-    <div className="pt-20 md:pt-24">
+    <div>
       {/* Full-bleed image hero, page-specific */}
       <section className="relative min-h-[80vh] md:min-h-[85vh] w-full overflow-hidden">
         <img
@@ -52,7 +52,7 @@ export function AboutPage() {
           </div>
           <a href="tel:+234XXXXXXXXXX" className="hidden sm:block text-sm text-white/70 leading-tight text-right">
             <div>Call us</div>
-            <div className="text-white">+234 XXX XXX XXXX</div>
+            <div className="text-white">+234 814 979 8764</div>
           </a>
         </div>
 
